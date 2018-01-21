@@ -1,3 +1,9 @@
 $(document).ready(function() {
-  $("#yo").append("Hey everybody!!!");
+ heyEverybody();
+ anotherFunction();
 })
+
+
+function heyEverybody() {
+   $("#yo").append("Hey everybody!!!");
+}
